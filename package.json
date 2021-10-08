@@ -1,0 +1,29 @@
+{
+  "name": "chilicoin",
+  "version": "1.0.0",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "node bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IRoToBo/chili-test-bot"
+  },
+  "author": "Chili Network Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnIdiotsGuide/guidebot/issues"
+  },
+  "homepage": "https://github.com/AnIdiotsGuide/guidebot#readme",
+  "dependencies": {
+    "better-sqlite-pool": "^0.2.2",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.1.0",
+    "express": "^4.16.4"
+  }
+}
